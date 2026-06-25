@@ -3,8 +3,8 @@
 site_name: 王记文档
 site_description: 个人知识库与技术文档
 site_url: https://docx.mujizi.com
-repo_url: https://github.com/jincaw/wadoc
-repo_name: jincaw/wadoc
+repo_url: https://github.com/jincaiw/wadoc
+repo_name: jincaiw/wadoc
 edit_uri: edit/main/docs/
 
 theme:

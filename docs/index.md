@@ -39,5 +39,5 @@
 本站使用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 构建，
 通过 GitHub Pages 发布，旨在提供一个干净、高效的技术文档阅读体验。
 
-- :material-github: [GitHub 仓库](https://github.com/jincaw/wadoc)
+- :material-github: [GitHub 仓库](https://github.com/jincaiw/wadoc)
 - :fontawesome-solid-feather: 写作于 2025

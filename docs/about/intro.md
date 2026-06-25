@@ -12,7 +12,7 @@
 - **构建工具**：[MkDocs](https://www.mkdocs.org/)
 - **主题**：[Material for MkDocs](https://squidfunk.github.io/mkdocs-material/)
 - **部署**：GitHub Pages + GitHub Actions
-- **代码托管**：[GitHub](https://github.com/jincaw/wadoc)
+- **代码托管**：[GitHub](https://github.com/jincaiw/wadoc)
 - **自定义域名**：`docx.mujizi.com`
 
 ## 写作风格
