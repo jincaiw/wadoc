@@ -1,0 +1,87 @@
+# $schema: https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: 王记文档
+site_description: 个人知识库与技术文档
+site_url: https://docx.mujizi.com
+repo_url: https://github.com/jincaw/wadoc
+repo_name: jincaw/wadoc
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  language: zh
+  font: false
+  favicon: assets/favicon.svg
+  logo: assets/logo.svg
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: 切换到深色模式
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: 切换到浅色模式
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+    - content.action.edit
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+  - tags
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.details
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - stylesheets/extra.css
+
+nav:
+  - 首页: index.md
+  - 指南:
+      - 快速开始: guide/getting-started.md
+      - 基础概念: guide/concepts.md
+      - 最佳实践: guide/best-practices.md
+  - 参考:
+      - API 参考: reference/api.md
+      - 配置说明: reference/configuration.md
+  - 关于:
+      - 项目介绍: about/intro.md
+      - 更新日志: about/changelog.md
