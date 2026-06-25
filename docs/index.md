@@ -37,4 +37,4 @@
 本站使用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 构建，
 通过 GitHub Actions 自动部署到 GitHub Pages。
 
-[:material-github: GitHub](https://github.com/jincaiw/wadoc) · [:material-web: docx.mujizi.com](https://docx.mujizi.com) · [:material-book: 写作规范](guide/best-practices.md)
+[:material-github: GitHub](https://github.com/jincaiw/wadoc) · [:material-web: docx.mujizi.com](https://docx.mujizi.com) · [:material-book: 写作规范](guide/best-practices.md) · [:material-file-document: 建站记录](guide/build-docs-site.md)

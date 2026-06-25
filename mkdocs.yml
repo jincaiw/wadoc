@@ -80,6 +80,7 @@ nav:
       - 关于本站: guide/getting-started.md
       - Markdown 语法: guide/concepts.md
       - 写作规范: guide/best-practices.md
+      - 构建文档站点: guide/build-docs-site.md
   - 图床搭建:
       - GitHub + PicGo 搭建图床: guide/github-picgo-bed.md
   - Mac 教程:
