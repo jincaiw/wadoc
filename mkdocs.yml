@@ -1,7 +1,7 @@
 # $schema: https://squidfunk.github.io/mkdocs-material/schema.json
 
-site_name: 王记文档
-site_description: 个人知识库与技术文档
+site_name: jason.wa的文档库
+site_description: 个人知识库与技术文档 - 网络、Docker、Linux、Mac 教程
 site_url: https://docx.mujizi.com
 repo_url: https://github.com/jincaiw/wadoc
 repo_name: jincaiw/wadoc
@@ -79,6 +79,29 @@ nav:
       - 快速开始: guide/getting-started.md
       - 基础概念: guide/concepts.md
       - 最佳实践: guide/best-practices.md
+      - 搭建 GitHub 图床: guide/github-picgo-bed.md
+  - Mac 教程:
+      - 概述: mac/index.md
+      - 初始化配置指南: mac/init-config.md
+      - Git 安装与 GitHub 使用: mac/git-install-guide.md
+      - 常用命令: mac/common-commands.md
+      - 安装软件的方式: mac/install-software.md
+      - Brew 安装软件清单: mac/brew-software-list.md
+      - 常用软件推荐: mac/recommended-software.md
+      - Oh My Zsh 安装指南: mac/oh-my-zsh.md
+      - "已损坏，打不开的解决方法": mac/app-broken-fix.md
+      - 截图保存: mac/screenshot-save.md
+      - 查看系统 Shell 环境: mac/shell-environment.md
+      - Ruby 版本升级: mac/ruby-upgrade.md
+      - 关闭 SIP 系统保护: mac/disable-sip.md
+      - 删除 Microsoft AutoUpdate: mac/remove-mau.md
+  - Docker:
+      - 概述: docker/index.md
+      - 搭建 phpIPAM 管理系统: docker/phpipam.md
+      - 搭建 Heimdall 导航页: docker/heimdall.md
+  - Linux:
+      - 概述: linux/index.md
+      - CentOS 添加静态路由: linux/static-route.md
   - 参考:
       - API 参考: reference/api.md
       - 配置说明: reference/configuration.md

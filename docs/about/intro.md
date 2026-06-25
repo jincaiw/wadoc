@@ -2,7 +2,7 @@
 
 ## 关于
 
-**王记文档** 是一个个人知识库与技术文档站点。
+**jason.wa 的文档库** 是一个个人知识库与技术文档站点。
 
 使用 [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) 构建，
 致力于提供清晰、高效、易于维护的文档体验。

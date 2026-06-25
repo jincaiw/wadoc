@@ -1,32 +1,44 @@
-# 王记文档
+# jason.wa 的文档库
 
-> 个人知识库与技术文档 —— 记录、整理、分享。
+> 个人知识库与技术文档 —— 网络、Docker、Linux、Mac 教程。
 
 ---
 
 <div class="grid cards" markdown>
 
+- :fontawesome-brands-apple: **Mac 教程**
+
+    Mac 电脑使用教程合集，从初始化配置到开发环境搭建。
+
+    [开始阅读 :octicons-arrow-right-24:](mac/index.md){ .md-button .md-button--primary }
+
+- :material-docker: **Docker 文档**
+
+    Docker 部署实战文档，涵盖 phpIPAM、Heimdall 等。
+
+    [查看文档 :octicons-arrow-right-24:](docker/index.md){ .md-button }
+
+- :fontawesome-brands-linux: **Linux 学习**
+
+    Linux 系统管理与网络配置笔记。
+
+    [查看内容 :octicons-arrow-right-24:](linux/index.md){ .md-button }
+
+- :material-image: **搭建图床**
+
+    使用 GitHub + PicGo 搭建免费图床。
+
+    [查看教程 :octicons-arrow-right-24:](guide/github-picgo-bed.md){ .md-button }
+
 - :material-rocket-launch: **快速开始**
 
     如果是第一次来，从这里开始了解。
 
-    [开始阅读 :octicons-arrow-right-24:](guide/getting-started.md){ .md-button .md-button--primary }
-
-- :material-book-open-variant: **基础概念**
-
-    了解核心概念和使用方式。
-
-    [了解更多 :octicons-arrow-right-24:](guide/concepts.md){ .md-button }
-
-- :material-api: **API 参考**
-
-    查阅完整的 API 文档和配置说明。
-
-    [查看文档 :octicons-arrow-right-24:](reference/api.md){ .md-button }
+    [开始阅读 :octicons-arrow-right-24:](guide/getting-started.md){ .md-button }
 
 - :material-star: **最佳实践**
 
-    学习推荐的用法和工作流程。
+    学习推荐的文档写作规范。
 
     [查看实践 :octicons-arrow-right-24:](guide/best-practices.md){ .md-button }
 
@@ -40,4 +52,5 @@
 通过 GitHub Pages 发布，旨在提供一个干净、高效的技术文档阅读体验。
 
 - :material-github: [GitHub 仓库](https://github.com/jincaiw/wadoc)
+- :material-web: [docx.mujizi.com](https://docx.mujizi.com)
 - :fontawesome-solid-feather: 写作于 2025
